@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Styling | Styling</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="nav__logo">
+                <a href="#">RV Fashion</a>
+            </div>
+            
+            <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#featured">FEATURED </a></li>
+            <li><a href="#product">PRODUCTS </a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="nav__btns">
+            <button class="btn" id="search-btn"><i class="ri-search-line"></i></button>
+            <button class="btn" id="bag-btn"><i class="ri-shopping-bag-line"></i></button>
+            <button class="btn" id="theme-toggle-btn">
+                <i class="ri-sun-line" id="theme-icon"></i>
+            </button>
+        </div>        
+    </nav>
+    
+    <div class="container">
+        <div class="container__left">
+            <h1>Enjoy Your Outfits Style</h1>
+            <div class="container__btn">
+                <button class="btn" id="see-more-btn">SEE MORE</button>
+            </div>
+        </div>
+        
+        <div class="container__right">
+            <div class="images">
+                <img src="assests/style-1.jpg" alt="style-1" class="style-1" />
+                <img src="assests/style-2.jpg" alt="style-2" class="style-2" />
+            </div>
+            <div class="content">
+                <h4></h4>
+                <h2>BASIC Styling</h2>
+                <h3>Your Styling Experience</h3>
+                <p>"For those who value classic elegance, our collection of timeless dresses combines comfort and sophistication without any extra embellishments. Discover the perfect blend of style and simplicity for every occasion."</p>
+            </div>
+        </div>
+    </div>
+    <!--==================== FEATURED ====================-->
+    
+    <section class="featured section container" id="featured">
+        <h2 class="section__title">
+            Featured
+        </h2>
+
+    <div class="featured__container grid">
+        <article class="featured__card">
+            <span class="featured__tag">New</span>
+
+            <img src="assests\elegant dresse.jpg" alt="Elegant Dress" class="featured__img">
+
+            <div class="featured__data">
+                <h3 class="featured__title">Elegant Dress</h3>
+                <span class="featured__price">$1050</span>
+                <br>
+                <button class="button featured__button">ADD TO CART</button>
+            </div>
+        </article>
+
+        <article class="featured__card">
+            <span class="featured__tag">New</span>
+
+            <img src="assests\leather jacket.jpg" alt="Leather Jacket" class="featured__img">
+
+            <div class="featured__data">
+                <h3 class="featured__title">Leather Jacket</h3>
+                <span class="featured__price">$250</span>
+                <br>
+                <button class="button featured__button">ADD TO CART</button>
+            </div>
+        </article>
+
+        <article class="featured__card">
+            <span class="featured__tag">New</span>
+
+            <img src="assests\sunglasses.jpg" alt="Sunglasses" class="featured__img">
+
+            <div class="featured__data">
+                <h3 class="featured__title">Sunglasses</h3>
+                <span class="featured__price">$890</span>
+                <br>
+                <button class="button featured__button">ADD TO CART</button>
+            </div>
+        </article>
+    </div>
+</section>
+            <!-- story -->
+<div class="container">
+    <div class="container__left">
+        <h1>Our's Story</h1>
+        <div class="container__btn">
+            <a href="shop.html"target="_blank">
+              <button class="btn" id="explore-btn">EXPLORE NOW</button>
+          </a>
+        </div>
+    </div>
+    
+    <div class="container__right">
+        <div class="images">
+            <img src="assests\elegant dresse.jpg" alt="style-1" class="style-1" />
+        </div>
+        <div class="content">
+            <h2> Elevating Fashion  to New Heights</h2>
+            <p>" Explore Ravi's journey through the world of fashion, where creativity meets elegance. Discover a curated selection of trendy and timeless pieces that define modern style."</p>
+        </div>
+    </div>
+</div>
+
+ <!--==================== PRODUCTS ====================-->
+ <div class="products container" id="products">
+    <h2 class="section__title">
+        Products
+    </h2>
+    
+    <div class="products__container grid">
+        <div class="products__card">
+            <img src="assests/blouse.jpg" alt="Chic Blouse" class="products__img">
+
+            <h3 class="products__title">Chic Blouse</h3>
+            <span class="products__price">$1500</span>
+            <br>
+            <button class="button featured__button">ADD TO CART</button>
+        </div>
+
+        <div class="products__card">
+            <img src="assests/skirt.jpg" alt="Stylish Skirt" class="products__img">
+
+            <h3 class="products__title">Stylish Skirt</h3>
+            <span class="products__price">$1350</span>
+            <br>
+            <button class="button featured__button">ADD TO CART</button>
+        </div>
+
+        <div class="products__card">
+            <img src="assests/shoes.jpg" alt="Designer Shoes" class="products__img">
+
+            <h3 class="products__title">Designer Shoes</h3>
+            <span class="products__price">$870</span>
+            <br>
+            <button class="button featured__button">ADD TO CART</button>
+        </div>
+
+        <div class="products__card">
+            <img src="assests/coat.jpg" alt="Classic Coat" class="products__img">
+
+            <h3 class="products__title">Classic Coat</h3>
+            <span class="products__price">$650</span>
+            <br>
+            <button class="button featured__button">ADD TO CART</button>
+        </div>
+
+        <div class="products__card">
+            <img src="assests/sunglasses.jpg" alt="Sun Glasses" class="products__img">
+
+            <h3 class="products__title">Sun Glasses</h3>
+            <span class="products__price">$650</span>
+            <br>
+            <button class="button featured__button">ADD TO CART</button>
+        </div>
+        <div class="products__card">
+            <img src="assests\watch.jpg" alt="Watch" class="products__img">
+
+            <h3 class="products__title">Watch</h3>
+            <span class="products__price">$950</span>
+            <br>
+            <button class="button featured__button">ADD TO CART</button>
+        </div>
+    </div>
+</div>
+
+    
+  <!-- About Section -->
+  <div class="about-container">
+    <div class="about-container__right">
+        <div class="images">
+            <img src="assests/style-1.jpg" alt="style-1" class="style-1" />
+            <!-- <img src="assests/style-2.jpg" alt="style-2" class="style-2" /> -->
+        </div>
+        <div class="about-content">
+            <h4></h4>
+            <h2>BASIC Styling & Fashion Tips</h2>
+            <p>"At RV Fashion, we embrace a unique blend of contemporary and timeless fashion. Our goal is to create styles that reflect both modern trends and classic elegance. We focus on providing high-quality pieces that make you look and feel exceptional. Our team of fashion experts carefully curates each collection to ensure it meets our standards of excellence and your fashion needs."</p>
+        </div>
+    </div>
+    <div class="about-container__left">
+        <h1>About US</h1>
+        <br>
+        <h3>We are committed to providing high-quality fashion pieces that blend contemporary and timeless styles.</h3>
+        <br>
+            
+    </div>
+</div>
+<!-- NEWSLETTER -->
+
+<div class="newsletter container">
+    <div class="newsletter__bg">
+        <div class="newsletter__content">
+            <h2 class="newsletter__title">Subscribe to Our <br> Newsletter</h2>
+            <p class="newsletter__description">
+                Subscribe to our email newsletter for exclusive fashion offers, trend alerts, special discounts, and stylish gifts. Don’t miss out on the latest trends and hottest deals—be the first to know!
+            </p>
+        </div>
+
+        <form action="" class="newsletter__subscribe">
+            <input type="email" placeholder="Enter your email" class="newsletter__input" required>
+            <button type="submit" class="newsletter__button">
+                SUBSCRIBE
+            </button>
+        </form>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="#top" class="back-to-top">Back to Top</a>
+        </div>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>We are committed to providing high-quality fashion pieces that blend contemporary and timeless styles.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#featured">FEATURED </a></li>
+                <li><a href="#product">PRODUCTS </a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>123 Fashion St, Patna, NY 10001</p>
+                <p>(+91) 8102343077</p>
+                <p>info@rvfashion.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="socials-2">
+                    <a href="https://www.facebook.com/ranveer.arya.9275439/"><i class="ri-facebook-fill"></i></a>
+                    <a href="https://www.instagram.com/_r.v_ravi_/?hl=en"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 RV Fashion. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
